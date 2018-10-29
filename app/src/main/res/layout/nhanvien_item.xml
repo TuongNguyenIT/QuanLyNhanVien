@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        app:srcCompat="@drawable/avatar1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:id="@+id/txtTen"
+        android:layout_margin="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten"
+        app:layout_constraintLeft_toRightOf="@id/imgAnh"
+        app:layout_constraintStart_toEndOf="@+id/imgAnh"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtThongTin"
+        android:layout_width="275dp"
+        android:layout_height="53dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Thong Tin"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/imgAnh"
+        app:layout_constraintTop_toBottomOf="@id/txtTen" />
+
+</android.support.constraint.ConstraintLayout>

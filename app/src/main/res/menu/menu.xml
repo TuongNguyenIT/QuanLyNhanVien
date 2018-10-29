@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemSort"
+        android:title="Sắp xếp">
+        <menu>
+            <item
+                android:id="@+id/menuItemSXID"
+                android:title="Sắp xếp theo mã" />
+            <item
+                android:id="@+id/menuItemSXTen"
+                android:title="Sắp xếp theo tên" />
+            <item
+                android:id="@+id/menuItemSXTLuong"
+                android:title="Sắp xếp theo mức lương" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuItemRefresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Làm tươi"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuItemExit"
+        android:title="Đăng xuất"></item>
+</menu>

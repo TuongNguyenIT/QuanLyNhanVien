@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản lý nhân viên</string>
+    <string name="app_title">QUẢN LÝ NHÂN VIÊN</string>
+    <string name="add">Thêm</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="thong_tin_nhan_vien">THÔNG TIN NHÂN VIÊN</string>
+    <string name="nhap_ten">Họ và tên: </string>
+    <string name="nhap_id">Mã nhân viên: </string>
+    <string name="luong">Lương: </string>
+    <string name="input_avata">Chọn icon đại diện: </string>
+    <string name="confirm">Xác nhận</string>
+    <string name="title_activity_chose_avatar">ChoseAvatar</string>
+</resources>

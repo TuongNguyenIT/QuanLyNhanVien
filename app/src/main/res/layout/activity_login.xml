@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnDangNhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background_gradient"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        app:srcCompat="@drawable/ad" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="11sp"
+        android:text="Tên đăng nhập: "
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:background="@drawable/custom_edittext_dangnhap"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:id="@+id/txtTenDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:ems="10"
+        android:inputType="textEmailAddress|textPersonName" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11sp"
+        android:text="Mật khẩu:"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:background="@drawable/custom_edittext_dangnhap"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/txtMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_btndangnhap"
+        android:text="Đăng nhập"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
